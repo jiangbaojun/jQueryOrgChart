@@ -21,7 +21,7 @@
       <td>url</td><td>number</td><td>节点超地址链接</td>
     </tr>
     <tr>
-      <td>orderNum</td><td>boolean</td><td>no</td><td>同级节点顺序编号</td>
+      <td>orderNum</td><td>boolean</td><td>同级节点顺序编号</td>
     </tr>
     <tr>
       <td>nodeClass</td><td>boolean</td><td>自定义node节点class</td>
