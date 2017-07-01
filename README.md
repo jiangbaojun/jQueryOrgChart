@@ -54,6 +54,7 @@
   </tbody>
 </table>
 ## 示例
+
 ![demo](https://github.com/jiangbaojun/jQueryOrgChart/blob/master/images/demo.gif?raw=true)
 
 ## 说明
