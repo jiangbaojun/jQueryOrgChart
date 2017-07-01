@@ -1,3 +1,6 @@
+## 示例
+
+![demo](https://github.com/jiangbaojun/jQueryOrgChart/blob/master/images/demo.gif?raw=true)
 
 ## data数据选项
 <table>
@@ -53,9 +56,6 @@
     </tr>
   </tbody>
 </table>
-## 示例
-
-![demo](https://github.com/jiangbaojun/jQueryOrgChart/blob/master/images/demo.gif?raw=true)
 
 ## 说明
 参考 [wesnolte](https://github.com/wesnolte) 的 [jOrgChart](https://github.com/wesnolte/jOrgChart)
