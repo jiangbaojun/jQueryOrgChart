@@ -54,5 +54,6 @@
   </tbody>
 </table>
 
-##　说明
+## 说明
+
     参考 [wesnolte](https://github.com/wesnolte)的[jOrgChart](https://github.com/wesnolte/jOrgChart)
