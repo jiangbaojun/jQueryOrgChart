@@ -55,5 +55,4 @@
 </table>
 
 ## 说明
-
-    参考 [wesnolte](https://github.com/wesnolte)的[jOrgChart](https://github.com/wesnolte/jOrgChart)
+参考 [wesnolte](https://github.com/wesnolte) 的 [jOrgChart](https://github.com/wesnolte/jOrgChart)
