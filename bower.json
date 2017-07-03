@@ -2,7 +2,7 @@
   "name": "jq-orgchart",
   "description": "organisation chart",
   "main": "js/jquery.jOrgChart.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     "jiangbaojun"
   ],

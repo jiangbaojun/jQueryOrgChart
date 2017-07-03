@@ -1,6 +1,6 @@
 {
   "name": "jq-orgchart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "organisation chart",
   "main": "js/jquery.jOrgChart.js",
   "scripts": {
