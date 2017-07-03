@@ -1,6 +1,62 @@
+## 介绍
+这是一个生成组织结构图的前端工具。依赖于jquery。
+
 ## 示例
 
 ![demo](https://github.com/jiangbaojun/jQueryOrgChart/blob/master/images/demo.gif?raw=true)
+
+## 使用
+
+###　安装依赖包（npm）
+
+```
+# install packages
+$ npm install jq-orgchart --save
+```
+
+###　引用
+```
+    引入基础css
+    <link rel="stylesheet" href="css/jquery.jOrgChart.css"/>
+    引入自定义css，可以修改成自己想要的样式
+    <link rel="stylesheet" href="css/custom.css"/>
+    
+    本工具依赖于jQuery，首先引入jQuery
+    <script type="text/javascript" src="js/jquery-min.js"></script>
+    引入主体js
+    <script src="js/jquery.jOrgChart.js"></script>
+```
+
+###　用法示例
+```
+<script>
+        // data数据
+        var data = [
+            {id: "0", name: "根节点", collapsed: false, url: ""},
+            {id: "1", parentId: "0", name: "页面", collapsed: false, url: "", orderNum: 1,nodeClass:"male"},
+            {id: "2", parentId: "0", name: "表单", collapsed: false, url: "", orderNum: 2,nodeClass:"male"},
+            {id: "5", parentId: "0", name: "其它", collapsed: true, url: "", orderNum: 3,nodeClass:"male"},
+            {id: "3", parentId: "1", name: "查询1", collapsed: true, url: "", orderNum: 1,nodeClass:"male"},
+            {id: "4", parentId: "2", name: "表单1", collapsed: false, url: "http://www.baidu.com", orderNum: 1,nodeClass:"male"},
+            {id: "6", parentId: "5", name: "其他1", collapsed: false, url: "http://www.baidu.com", orderNum: 1,nodeClass:"male"},
+            {id: "7", parentId: "1", name: "查询2", collapsed: false, url: "", orderNum: 2,nodeClass:"male"},
+            {id: "10", parentId: "7", name: "查询2-1", collapsed: false, url: "http://www.baidu.com", orderNum: 1,nodeClass:"male"},
+            {id: "8", parentId: "3", name: "查询1-1", collapsed: true, url: "", orderNum: 1,nodeClass:"male"},
+            {id: "9", parentId: "8", name: "查询1-1-1", collapsed: false, url: "http://www.baidu.com", orderNum: 1,nodeClass:"male"}
+        ];
+        // options选项
+        var options={
+            data : data,
+            showOrderNum: true,
+            rootId : 0
+        };
+        $(function(){
+            $("#chart").orgChat(options);
+        });
+    </script>
+    
+    <div id="chart" class="orgChart"></div>
+```
 
 ## data数据选项
 <table>
