@@ -7,11 +7,15 @@
 
 ## 使用
 
-###　安装依赖包（npm）
+###　安装依赖包
 
+npm位置:[https://www.npmjs.com/package/jq-orgchart](https://www.npmjs.com/package/jq-orgchart)
 ```
-# install packages
+# install packages(npm)
 $ npm install jq-orgchart --save
+
+# install packages(bower)
+$ bower install jq-orgchart --save
 ```
 
 ###　引用
